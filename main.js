@@ -24,7 +24,7 @@ function createBox() {
 
     document.getElementById("box").style.cssText = `box-shadow: ${boxShadow} ${shadowcolor}`;
 
-    outputCode.value = `box-shadow: ${boxShadow};`
+    outputCode.value = `box-shadow: ${boxShadow} ${shadowcolor};`
 }
 
 let output = document.getElementById("css-code");
